@@ -552,7 +552,6 @@ def buildDict():
 					print(str(int((completed[0] / 20) * 100)) + " percent complete")
 					completed.remove(completed[0])
 			print("combos of length " + str(len(state.cat_representations) - x) + " completed in " + str((time.time() * 1.0 - time1) / 60) + " minutes")
-			break
 	print("Finished in " + str((time.time() * 1.0 - TIME) / 60) + " minutes")
 
 	return state_potentials
