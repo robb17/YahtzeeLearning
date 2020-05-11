@@ -7,7 +7,7 @@ Here, I attempt to probe the shape of Yahtzee's strategy ladder via reinforcemen
 
 Results are currently noisy, but with a bit more compute power a clearer relationship should emerge.
 
-[Preliminary results](all_ladders_newer.png)
+![Preliminary results](all_ladders_newer.png)
 
 Contents:
 
