@@ -19,3 +19,5 @@ Contents:
 
 * query_optimal.py
 	* Slower, but more organized implementation of query_optimal_fast
+
+Usage: run [program] -help for a list of command-line arguments
