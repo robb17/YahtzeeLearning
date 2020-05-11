@@ -1,7 +1,7 @@
 # YahtzeeLearning
 An algorithmic attempt to make the game of Yahtzee more interesting
 
-How does one characterize the depth of a game? We can address the issue through the lens of steady progress: as an agent learns the ropes, he, she, or it may find it desirable to steadily improve. A good game is arguably a) one that offers a clear path to becoming more skilled and b) does so in a more or less linear fashion. We can formalize this relationship as strategy ladder, an idea originally proposed by [Lantz et al](https://aaai.org/ocs/index.php/WS/AAAIW17/paper/download/15142/1478).
+How does one characterize the depth of a game? The issue can be addressed through the lens of steady progress: as an agent learns the ropes, he, she, or it would likely find it interesting to steadily improve. In other words, a good game is arguably one that offers a path to becoming more skilled in a *more or less linear fashion*. This desirable property informs the intuition for a strategy ladder, an idea originally proposed by [Lantz et al](http://julian.togelius.com/Lantz2017Depth.pdf). In this work, the relationship between available resources and strategy strength is explored. Plotting the former against the best possible score for the latter, across all possible strategies at that level of resources, should yield a curve that informs how "deep" a game is.
 
 Here, I attempt to probe the shape of Yahtzee's strategy ladder via reinforcement learning. Can varying the upper bonus threshold and/or value bring about a more gradual curve?
 
